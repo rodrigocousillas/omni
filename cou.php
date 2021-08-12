@@ -10,7 +10,7 @@
 	$query="SELECT o.* 
         FROM " . TABLA_MODELOS. " o 
         WHERE o.id = '".$id."'";
-
+pongo cualqueira aca
 $respuesta=mysqli_query($conexion, $query); 
 if($respuesta){
   while($r=mysqli_fetch_assoc($respuesta)){ 
