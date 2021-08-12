@@ -1,0 +1,488 @@
+/* LAPTOP */
+@media only screen and (max-width: 1580px) {
+    
+}
+
+/* LAPTOP */
+@media only screen and (max-width: 1380px) {
+
+    
+
+
+}
+
+/* XL */
+@media only screen and (max-width: 1200px) {
+    
+
+}
+
+/* LG */
+@media only screen and (max-width: 1118px) {
+
+.activo { display: none; }
+
+}
+/* MD */
+@media only screen and (max-width: 768px) {
+
+
+.navbar-collapse { font-size: 20px; padding-left: 20px; padding-top: 20px;}
+.dropdown-menu a:link { font-size: 20px;  padding-left: 10px; margin-left: 0; }
+.dropdown-menu a:visited { font-size: 20px;  padding-left: 10px; margin-left: 0; }
+.navbar-toggler { border: none;  }
+
+.soluciones_home h5 { padding-left: 0px; }
+.soluciones_home p { text-align: left; font-size: 30px; color: #00193f; padding-left: 0px; }
+.soluciones_home i { display: none; }
+
+.fondoAcerca { 
+  position:relative;
+  background: url(../img/header_acerca.jpg) 0% 100% no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  margin-bottom: 148px;
+  }
+.headerAcerca { 
+  position: absolute;
+   height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: #0061ff;   padding: 0 15px 50px 15px; color:white; 
+  }
+
+.headerAcerca p { font-size: 18px; margin-top: 40px; line-height: 32px; }
+.headerAcerca h2 { font-size: 24px; margin-top: 40px; font-size: 36px; 
+  color: white; text-align: left; line-height: 40px; font-weight: 100;}
+
+
+
+.headerAcerca p { font-size: 18px; margin-top: 0px; line-height: 32px; padding-bottom: 30px; }
+
+.palabraSoluciones { margin-top:10px; position: absolute; z-index: 100; background-color: }
+
+
+.queDicen { height: 550px; }
+
+
+.legal { margin-top: 35px; margin-bottom: 40px;}
+
+
+.fondoHeaderVT { 
+  position:relative;
+  background: url(../img/header_vidrio_templado.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerVT { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95; 
+  background-color: #0061ff; padding: 0 30px 50px 30px; color:white; 
+  }
+.headerVT p { font-size: 18px; margin-top: 5px; line-height: 32px; }
+
+.fondoHeaderVL { 
+  position:relative;
+  background: url(../img/header_vidrio_laminado.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerVL { 
+  position: absolute;
+   height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: #3691ff; padding: 0 30px 50px 30px; color:white; 
+  }
+
+
+.headerVL p { font-size: 18px; margin-top: 5px; line-height: 32px; }
+
+.fondoHeaderDVH { 
+  position:relative;
+  background: url(../img/header_doble_vidrio_hermetico.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerDVH { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: #4e93ed; padding: 0 30px 50px 30px; color:white; 
+  }
+.headerDVH p { font-size: 18px; margin-top: 5px; line-height: 32px; }
+
+.fondoHerrajes { 
+  position:relative;
+  background: url(../img/header_herrajes.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerHerrajes { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: #92C4FF; padding: 0 30px 50px 30px; color:white; 
+  }
+.headerHerrajes p { font-size: 18px; margin-top: 5px; line-height: 32px;  }
+
+.youtube { margin-top: 75px; padding-left: 25px; padding-right: 25px; }
+
+.fondoMitad { background-color: #eeeeee; height: 75px; margin-top: -75px; }
+
+.fondoSuspend { 
+  position:relative;
+  background: url(../img/header_suspend.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  
+  }
+.headerSuspend { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: white; padding:  0 15px 50px 15px; 
+  }
+.headerSuspend p { color: #005cf2; font-size: 18px; margin-top: -50px; line-height: 26px;}
+.headerSuspend h2 { color: #005cf2; font-size: 24px; margin-top: 30px; text-align: left;
+ line-height: 40px; font-weight: 900; }
+
+.fondoFF { 
+  position:relative;
+  background: url(../img/header_flex-front.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerFF { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: white; padding:  0 15px 50px 15px; 
+  }
+.headerFF p { color: #005cf2; font-size: 18px; margin-top: -50px; 
+  line-height: 26px;}
+.headerFF h2 { color: #005cf2;  margin-top: 30px; font-size: 24px; 
+   text-align: left; line-height: 40px; font-weight: 900; }
+
+.fondoPA { 
+  position:relative;
+  background: url(../img/header_puertas-automaticas.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerPA { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: white; padding:  0 15px 50px 15px; 
+  }
+.headerPA p { color: #005cf2; font-size: 18px; margin-top: -50px; 
+  line-height: 26px;}
+.headerPA h2 { color: #005cf2; font-size: 24px; margin-top: 30px; 
+   text-align: left; line-height: 40px; font-weight: 900; }
+
+.fondoT { 
+  position:relative;
+  background: url(../img/header_trosifol.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerT { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: white; padding:  0 15px 50px 15px; 
+  }
+.headerT p { color: #005cf2; font-size: 18px; margin-top: -50px; margin-left: 0px; 
+  line-height: 26px;}
+.headerT h2 { color: #005cf2; font-size: 24px; margin-top: 30px; 
+   text-align: left; line-height: 40px; font-weight: 900; }
+
+
+.marcaaguaTemplado {  
+  margin-top: -155px;
+  margin-bottom: 50px;
+  background-image: url("../img/templado.png");
+  background-repeat: no-repeat;
+  background-position:100% 100%; 
+  background-size: 100%;
+}
+
+.marcaaguaLaminado {  
+  margin-top: -175px;
+  margin-bottom: 50px;
+  background-image: url("../img/laminado.png");
+  background-repeat: no-repeat;
+  background-position:100% 100%; 
+  background-size: 100%;
+}
+
+.fondoSG { 
+  position:relative;
+  background: url(../img/header_sentryglas.jpg) 50% 0 no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 800px;
+  }
+.headerSG { 
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+   opacity: 0.95;
+  background-color: white; padding:  0 15px 50px 15px; 
+  }
+.headerSG p { color: #005cf2; font-size: 18px; margin-top: -50px; 
+  line-height: 26px;}
+.headerSG h2 { color: #005cf2; font-size: 24px; margin-top: 30px; 
+   text-align: left; line-height: 40px; font-weight: 900; }
+
+
+.porque p { font-size: 16px; color: #00193f; padding-right: 15px; }
+
+
+.especificacionesProductos { background-color: white; padding: 70px 30px 70px 30px;
+  color: #00193f; font-size: 16px; text-align: left; line-height: 24px; }
+
+.especificacionesProductos img { padding: 0;  }
+
+.acercaTextos {  }
+.acercaTextos h6 { padding-left: 25px; padding-top: 42px; color: #0173ff; font-size: 12px;
+ text-transform: uppercase; margin-bottom: 0px; font-weight: 100; letter-spacing: 1px; }
+.acercaTextos h2 {padding-left: 25px; color: #00193f; font-size: 24px; font-weight: 100;
+ text-align: left; margin-top: 20px; margin-bottom: 30px; line-height: 30px;}
+.acercaTextos ul{ color: red;
+ margin:0 0 0 45px;
+ padding:0 0 0 0;
+}
+
+.acercaTextos li{
+          color: #0173ff; font-size: 16px;
+          margin-bottom: 20px;
+          padding-right: 40px;
+  }
+
+ .acercaTextos li span{
+    color: #00193f;
+  }
+
+
+
+.Lateral { padding-left: 15px; }
+.herrajesH3 { padding-left: 30px; padding-top: 50px; }
+
+}
+
+/* SM */
+@media only screen and (max-width: 576px) {
+    
+.desktop { display: none; }    
+.mobile { display: block; }
+
+.royalSlider {
+
+  display: none!important;
+}
+
+.HomeNuestrasMarcas { position: absolute; width: auto!important; 
+  z-index: 900; text-align: center; top: 30%; left: 0; right: 0; margin: 0 auto; }
+.HomeNuestrasMarcas h2 { text-align: center; font-size: 40px; color: #ffffff; font-weight: 900;
+ margin-bottom: 5px;letter-spacing: -1px;}
+.HomeNuestrasMarcas p { text-align: center; font-size: 18px; 
+  color: #ffffff; margin-top: 0px; margin-bottom: 50px;}
+
+.fondoHomeCapacitacion { background: url(../img/home_capacitacion.jpg) 50% 50% no-repeat; }
+.HomeCapacitacion h2 {font-size: 40px;}
+
+.mobileMarginBottom { margin-bottom: 70px; }
+
+.margenSliderMobile1 { margin-right: 30px; }
+.margenSliderMobile2 { margin-left: 30px; }
+
+.fondoRepresentaciones { margin-top: 40px!important;
+ padding-top: 60px!important; padding-bottom: 60px!important;  }
+
+.mt-150 { margin-top: 70px; }
+ 
+.footer .redes ul { float: left!important; }
+.footer .redes li { float: center; list-style: none; margin: 0!important; padding-bottom: 20px; }
+
+.footer i { padding: 0 15px; font-size: 25px!important; }
+
+.footer .legal p  { text-align: center; }
+
+.marcasRepresentadas { text-align: center; margin-bottom: 40px; }
+
+.representacionesTextoDerecha { padding-top: 25px; padding-left: 15px; padding-right: 15px; }
+
+.productos .tema { letter-spacing: 2px;
+ text-transform: uppercase; font-size: 11px; color: #ee4b3b; margin-top:0px; margin-bottom: 5px; }
+
+.productos h3 { margin-bottom: -2px; padding-bottom: 0; }
+.productos .nombreModelo h1 { margin-top: 70px; width: 80%; text-align: center; font-size: 40px;}
+
+#parallax h3 { color: #e30613; font-size: 28px; margin-bottom: 50px; padding-top: 75px;  }
+#parallax p { color: white; font-size: 20px; line-height: 26px;  }
+
+#parallax li { color: white; font-size: 20px; line-height: 24px;  }
+
+.linksDeInteres { background-color: #ff0000; margin-top: 40px; color: white; }
+.linksDeInteres h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; 
+  padding-top: 35px; padding-left: 55px; padding-bottom: 20px;  } 
+.linksDeInteres p { font-size: 18px; padding-left: 35px; padding-right: 25px; padding-bottom: 45px;}
+
+.testimoniosDeExpertos { padding-top: 80px; text-align: center; margin-bottom: 100px;}
+.testimoniosDeExpertos h2 { color: #e30613; font-size: 36px; font-weight: 500; margin-bottom: 80px; }
+.testimoniosDeExpertos h4 { color: #000000; font-size: 13px; 
+  font-weight: 900; letter-spacing: 2px; text-transform: uppercase; margin-top: 40px; margin-bottom: 25px; }
+.testimoniosDeExpertos p { color: #000000; font-size: 21px;  }
+.testimoniosDeExpertos h5 { color: #000000; font-size: 15px; font-weight: 900;  }
+
+.contactarProductos .texto { background-color: #de000c; margin-top: 0px; color: white; 
+  padding-left: 50px; padding-top: 50px;  }
+.contactarProductos .texto p { color: #ffffff; font-size: 28px; padding-right: 100px!important; font-weight: 500px;
+ padding-right: 50px; padding-bottom: 30px; }
+
+
+
+
+
+
+.carousel-caption { margin-left: 50px; width: 50%; margin-top: -50px; }
+
+
+
+
+.testimonio {  
+ 
+ background-image: url("../img/fondo_testimonio.png");
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  position: relative;
+  z-index: 1000;  }
+
+.cajasHome { padding: 50px 0px 20px 50px;}
+
+.expertise { padding-top: 70px;  }
+.expertise h1 { font-size: 30px; text-align: center; color: #00193f;  margin-top: 20px; width: 100%; margin-bottom: 80px; font-weight: 100; }
+
+.soluciones_home h5 { padding-left: 25px; text-align: left; color: #0173ff; padding-top: 50px;
+  font-size: 14px; letter-spacing: 3px; margin-bottom:20px; }
+.soluciones_home p { text-align: left; font-size: 24px; color: #00193f; padding-left: 25px; 
+  margin-top: 15px; }
+.soluciones_home i { text-align: left; font-size: 24px; color: #00193f; padding-right: 20px; margin-top: 0px;  }
+.lineaSoluciones_home { margin-top: -20px; border-bottom: 1px solid  #00193f;; margin-left: 25px; margin-right: 25px;}
+.palabraSoluciones { margin-top: 50px; position: absolute; z-index: 100; background-color: }
+
+.novedadesHome { 
+  padding-bottom: 50px; 
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position:100% 100%;
+   }
+
+.palabraNovedades { display: block; margin-top: -50px; padding-bottom: 100px;    }
+
+.fondoObras { background-color: #0061ff;  margin-bottom: 50px; padding: 40px 0;}
+
+.footer { padding-left: 30px; }
+
+
+.headerPA { padding-left: 40px; padding-right: 40px; padding-top: 20px;}
+.headerSuspend { padding-left: 40px; padding-right: 40px; padding-top: 20px;}
+.headerFF { padding-left: 40px; padding-right: 40px; padding-top: 20px;}
+.headerT { padding-left: 40px; padding-right: 40px; padding-top: 20px;}
+.headerSG { padding-left: 40px; padding-right: 40px; padding-top: 20px;}
+
+.marcaaguaPA { background-image: url("../img/puertasautomaticas.png"); background-repeat: no-repeat; background-position:0% 25px; background-size: 101% auto; }
+.marcaaguaSuspend { background-size: 101% auto; background-position:0% 25px; }
+.marcaaguaFF { background-size: 101% auto; background-position:0% 25px; }
+.marcaaguaT { background-size: 101% auto; background-position:0% 25px; }
+.marcaaguaSG { background-size: 101% auto; background-position:0% 25px; }
+
+.FFT { padding-top: 75px; }
+.suspendTop { padding-top: 135px; }
+.suspendT { padding-top: 100px; }
+.topSG { padding-top: 65px; }
+
+.solucionesTextos { padding-top: 100px; padding-left: 30px; padding-right: 30px; }
+.solucionesTextos h6 { color: #0173ff; font-size: 14px; font-weight: 100; letter-spacing: 2px;}
+.solucionesTextos p { color: #00193f; font-size: 16px; }
+
+.ptb80 { padding-top: 40px; padding-bottom: 40px; }
+.puertasautomaticas { background-color: white; padding: 30px;  }
+.puertasautomaticas h3 { color: #0173ff; font-size: 24px; text-align: left; margin-bottom: 40px;  } 
+
+.caracteristicasSuspend { background-color: white; padding: 70px 25px;  }
+.cajaHerrajes { padding: 0 30px; }
+
+.cajaHerrajes .card { border: 1px solid #EEEEEE; height: auto; }
+
+ .contenedorImagenH{
+    height: 300px;
+    overflow: hidden;
+    
+  }
+
+.herrajeMobile h2 { margin-top: 150px; }
+.categoriaHerraje { padding: 30px; }
+.categoriaHerraje h1 { font-size: 36px; font-weight: 900; color: #00193f; 
+  margin-top: 25px; width: 75%; }
+.tresImagenes { margin-top: 65px; margin-bottom: 50px; }
+.obrasInterior h1 { width: 80%; }
+
+}
+
+/* XS */
+@media only screen and (max-width: 450px) {
+
+   
+    
+
+}
