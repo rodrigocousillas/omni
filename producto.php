@@ -86,7 +86,28 @@ require ('header.php');
 	</div>
 </div> <!-- FIN CONTAINER PRODUCTOS -->
 
+<div class="desktop">
 <div class="container" style="background: url('img/productos/<?php echo $imagen5 ?>') 50% 0 no-repeat; height: 700px;">
+	<section class="center slider">
+		<div>
+			<img src="img/productos/<?php echo $imagen6 ?>" alt="" class="d-block mx-auto" >
+		</div>
+		 <?php if(!empty($imagen7)) { ?>
+		<div>
+			<img src="img/productos/<?php echo $imagen7 ?>" alt="" class="d-block mx-auto" >
+		</div>
+	<?php } ?>
+	 <?php if(!empty($imagen8)) {?>
+		<div>
+			<img src="img/productos/<?php echo $imagen8 ?>" alt="" class="d-block mx-auto" >
+		</div>
+	<?php } ?>
+	</section>
+	
+</div> <!-- FIN CONTAINER SLIDER PRODUCTO -->
+</div>
+<div class="mobile">
+<div class="container" >
 	<section class="center slider">
 		<div>
 			<img src="img/productos/<?php echo $imagen6 ?>" alt="" class="d-block mx-auto" width="100%">
@@ -102,7 +123,9 @@ require ('header.php');
 		</div>
 	<?php } ?>
 	</section>
+	
 </div> <!-- FIN CONTAINER SLIDER PRODUCTO -->
+</div>
 
 <div class="container-fluid desktop">
 	
@@ -177,33 +200,33 @@ require ('header.php');
 			}
 		</script>
 		<div class="row">
-			<div class="col-10 offset-1">
+			<div class="col-12 col-md-10 col-md-1">
 				<div class="row">
 					<div class="col-12 col-md-7 wow fadeInUp" data-wow-delay="0.2s" style=" animation-duration: 2s;">
 						<p id="va" style="display: block;"><?php echo $texto_pa; ?></p>
-						<p id="cp" style="display: none;"><?php echo $texto_op; ?></p>
-						
+						<p id="cp" style="display: none;"><?php echo $texto_op; ?></p>	
 					</div>
-					<div id="vaimagen" class="col-12 col-md-5 wow fadeInUp" data-wow-delay="0.3s" style=" animation-duration: 3s; padding-bottom: 80px; display: block;">
-						<img src="img/productos/<?php echo $imagen3; ?>" alt="" class="img-fluid" >
-					</div>
-					<div id="vaimagen1" class="col-12 col-md-5" style="padding-bottom: 80px; display: none;">
-						<img src="img/productos/<?php echo $imagen3; ?>" alt="" class="img-fluid" >
-					</div>
-					<div id="cpimagen" class="col-12 col-md-5" style=" padding-bottom: 80px; display: none;">
-						<img src="img/productos/<?php echo $imagen9; ?>" alt="" class="img-fluid" >
-					</div>
-					
-				</div>
-				<div class="row">
-					<div class="col-md-3" style="float:right; border:1px solid #ff0000; border-radius:25px; padding: 5px; width: 260px; ">
+					<div class="col-12 col-md-5 ">
+						<div id="vaimagen" class="wow fadeInUp" data-wow-delay="0.3s" style=" animation-duration: 3s; padding-bottom: 40px; display: block;">
+							<img src="img/productos/<?php echo $imagen3; ?>" alt="" class="img-fluid" >
+						</div>
+						<div id="vaimagen1"  style="padding-bottom: 40px; display: none;">
+							<img src="img/productos/<?php echo $imagen3; ?>" alt="" class="img-fluid" >
+						</div>
+						<div id="cpimagen"  style=" padding-bottom: 40px; display: none;">
+							<img src="img/productos/<?php echo $imagen9; ?>" alt="" class="img-fluid" >
+						</div>
+
+						<div class="mx-auto d-block" style="border:1px solid #ff0000; border-radius:25px; padding: 5px; width: 260px; margin-bottom: 50px; ">
 							
 							<button  type="button" id="botonazo1" class="btnActivos btn btn-blanco" value="va" onClick=" mostrar(this.value); this.blur();">PACIENTE</button>
 
 							<button  type="button" id="botonazo2" class="btn btn-blanco" value="cp" onClick=" mostrar(this.value); this.blur();">OPERADOR</button>
 							
 						</div>
-				</div>
+
+					</div>
+				</div>		
 			</div>
 		</div>		
 	</div>
@@ -241,7 +264,7 @@ require ('header.php');
 
 	        	<div class="row">
 							<div class="col-12 col-md-8">
-								<img src="img/productos/sliders/'.$imagen.'" alt="" class=" wow fadeInRight" data-wow-delay="0.3s" style=" animation-duration: 2s;">
+								<img src="img/productos/sliders/'.$imagen.'" alt="" class=" wow fadeInRight img-fluid" data-wow-delay="0.3s" style=" animation-duration: 2s;">
 							</div>
 							<div class="col-12 col-md-4 textoDerecha">
 								<div class="lineaRoja"></div>
@@ -258,7 +281,9 @@ require ('header.php');
 					<div style="margin-top:50px;">
 					<div>
 	        	<div class="row">
-						
+							<div class="col-12 col-md-7 mobile">
+								<img src="img/productos/sliders/'.$imagen.'" alt=""  class="wow fadeInRight img-fluid" data-wow-delay="0.3s" style="animation-duration: 2s; float: right; margin-right:25px;">
+							</div>
 							<div class="col-12 col-md-5 textoIzquierda">
 								<div class="lineaRoja"></div>
 									<div class="wow fadeInUp" data-wow-delay="0.3s" style=" animation-duration: 2s;">
@@ -266,8 +291,8 @@ require ('header.php');
 	          				<p>'.nl2br($texto).'</p>
 									</div>
 							</div>
-							<div class="col-12 col-md-7">
-								<img src="img/productos/sliders/'.$imagen.'" alt=""  class="wow fadeInRight" data-wow-delay="0.3s" style="animation-duration: 2s; float: right; margin-right:25px;">
+							<div class="col-12 col-md-7 desktop">
+								<img src="img/productos/sliders/'.$imagen.'" alt=""  class="wow fadeInRight img-fluid" data-wow-delay="0.3s" style="animation-duration: 2s; float: right; margin-right:25px;">
 							</div>
 						</div>
 				 	</div>
@@ -349,7 +374,7 @@ require ('header.php');
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-8 offset-2">
+		<div class="col-12 col-md-8 offset-md-2">
 			<section class="lazy slider">
 				<?php
 	
@@ -393,7 +418,9 @@ require ('header.php');
 		<div class="col-12 col-md-5 texto">
 			<hr style="background-color: #ffffff; width: 30px; height: 2px;">
 			<p>Por consultas acerca de <?php echo $nombre_modelo; ?> contactese con un asesor</p>
-			<button type="button" class="btn btn-contactarAsesor">CONTACTAR ASESOR <i class="fas fa-plus" ></i></button>
+			
+			<a href="contacto.php" class="btn btn-contactarAsesor">CONTACTAR ASESOR <i class="fas fa-plus" ></i></a>
+		
 		</div>
 		<div class="col-12 col-md-7 desktop">
 			<img src="img/productos/<?php echo $imagen4; ?>" alt="" width="100%">

@@ -198,6 +198,21 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 3
   }
 </script>
 
+<div id="wg-api-football-livescore"
+     data-host="v3.football.api-sports.io"
+     data-refresh="60"
+     data-key="Your-Api-Key-Here"
+     data-theme=""
+     data-show-errors="false"
+     class="api_football_loader">
+</div>
+<script
+    type="module"
+    src="https://widgets.api-sports.io/football/1.1.8/widget.js">
+</script>
+
+
+
 
 <?php 
   require ('footer.php') ;

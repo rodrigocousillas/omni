@@ -1,5 +1,5 @@
 <?php
-$seccion = 'Novedad';  
+$seccion = 'Novedades';  
 $cat = 3;
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 setlocale(LC_TIME, 'es_ES.UTF-8');
@@ -29,12 +29,12 @@ while($r=mysqli_fetch_assoc($respuesta)){
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 36%, rgba(249,249,249,1) 100%);">
 	<div class="container">
 		<div class="row">
-			<div class="col-6" style="padding-left: 15px;">
+			<div class="col-12 col-md-6 pl-15"> 
 				<img src="img/novedades/<?php echo $imagenGrande;?>" alt="" style="margin:0;
 	padding:0;
 	width:100%;">
 			</div>
-			<div class="col-6 destacadoNovedad">
+			<div class="col-12 col-md-6 destacadoNovedad">
 				<div class="tema">
 					<?php echo strtoupper($tema);?>
 				</div>

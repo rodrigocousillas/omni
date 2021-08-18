@@ -68,9 +68,10 @@ $(document).ready(function() {
     {
       breakpoint: 768,
       settings: {
+      
         arrows: true,
         centerMode: true,
-        centerPadding: '0px',
+        centerPadding: '15px',
         slidesToShow: 1,
         slidesToScroll: 1
       }

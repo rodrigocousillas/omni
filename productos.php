@@ -17,13 +17,16 @@
 		    $id=($r['id']);
 		    
 		?>
-<div class="container-fluid fondoProductos" style=" background: url(img/productos/<?php echo $imagen; ?>) 100% 0% no-repeat; background-size: cover;">
+<div class="container-fluid fondoProductos" style="background: url(img/productos/<?php echo $imagen; ?>) 100% 0% no-repeat; background-size: cover;">
+
 	<div class="container headerProductos">
-		<div class="lineaRoja"></div>
+		<div class="lineaRoja desktop"></div>
+		<div class="lineaRoja mx-auto mobile"></div>
 
 		<h1 class="wow fadeInUp" data-wow-delay="0.1s" style=" animation-duration: 2s; "><?php echo $titulo ?></h1>
 		<h1 class="wow fadeInUp" data-wow-delay="0.2s" style=" animation-duration: 3s; "><?php echo $titulo2 ?></h1>
-		<a class="btn btn-coloradoMasInfo wow fadeInUp" style=" animation-duration: 2s; " href="producto.php?i=<?php echo $modelo; ?>">MÁS INFORMACIÓN <i class="fas fa-plus" ></i></a>
+		<a class="desktop btn btn-coloradoMasInfo wow fadeInUp" style=" animation-duration: 2s; " href="producto.php?i=<?php echo $modelo; ?>">MÁS INFORMACIÓN <i class="fas fa-plus" ></i></a>
+		<a class="mobile mx-auto btn btn-coloradoMasInfo1 wow fadeInUp" style=" animation-duration: 2s; " href="producto.php?i=<?php echo $modelo; ?>">MÁS INFORMACIÓN <i class="fas fa-plus" ></i></a>
 	</div>
 
 	<?php if($proximamente == "1") { ?>

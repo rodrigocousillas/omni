@@ -1,5 +1,5 @@
 <?php  
-$seccion = 'Novedad'; 
+$seccion = 'Novedades'; 
 $cat = 3;
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 setlocale(LC_TIME, 'es_ES.UTF-8');
@@ -41,7 +41,7 @@ if($respuesta){
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 36%, rgba(249,249,249,1) 100%);">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-md-6 pl-15">
 				<img src="img/novedades/<?php echo $imagenGrande;?>" alt="" style="margin:0;
 	padding:0;
 	width:100%;">
@@ -121,7 +121,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 3
         $fecha_objeto = date_create($fecha);
       
       ?>
-		<div class="col-md-4">
+		<div class="col-md-4 mb-5 mb-md-0">
 			<img src="img/novedades/<?php echo $imagen;?>" alt="" class="img-fluid">
 			<div class="tema">
 				<?php echo strtoupper($tema);?>

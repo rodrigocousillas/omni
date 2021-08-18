@@ -37,7 +37,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 3
 		<div class="col-12">
 			<div class="lineaNegra"></div>	
 				<div class="row">		
-				<div class="col-2 col-md-2 mt-2 mt-md-0 pt-2">
+				<div class="col-5 col-md-2 mt-0 mt-md-2 mt-md-0 pt-0 pt-md-2">
 			     	<select name="marcas" id="marcas" onchange="filtrar('marcas', this.value)">
 			        	<option value="">Marcas</option>
 			        	<?php
@@ -57,7 +57,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 3
         ?>
 			    	</select>
           </div>
-          <div class="col-2 col-md-2 mt-2 mt-md-0 pt-2">
+          <div class="col-5 col-md-2 mt-0 mt-md-2 mt-md-0 pt-0 pt-md-2">
 
             <select name="modelos" id="modelos" onchange="filtrar('modelos', this.value)">
                 <option value="">Modelos</option>

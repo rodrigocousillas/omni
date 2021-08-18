@@ -32,7 +32,7 @@ require_once("config/conexion.php");
                   
        </div>
        <?php } ?>
-       <div class="rsContent" >
+       <div class="rsContent mobile">
                     
             			<video id="video-background" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     							<source src="https://couandcou.com.ar/img/video.mp4" type="video/mp4">
