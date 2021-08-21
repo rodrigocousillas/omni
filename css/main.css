@@ -97,6 +97,9 @@ textarea {
 
 .mobile { display: none; }
 
+.slideDesktop { display: block; }
+.slideMobile { display: none; }
+
 .sinpadding [class*="col-"] {
     padding: 0;
 }

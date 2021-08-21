@@ -18,13 +18,18 @@ require_once("config/conexion.php");
 		      while($r=mysqli_fetch_assoc($respuesta)){ 
 		        $subtitulo=($r['subtitulo']);
 		        $titulo=($r['titulo']);
-		        $vermas=($r['vermas']);
+		      
 		        $imagen=($r['imagen']);
+		        $imagen1=($r['imagen1']);
 		        $id=($r['id']);
 		      ?>
       <div class="rsContent">
+                  
+
                   <img src="img/slider_principal/<?php echo $imagen;?>" class="img-fluid slideDesktop">
-            
+            			<img src="img/slider_principal/<?php echo $imagen1;?>" class="img-fluid slideMobile">
+
+
                   <div class="texto">
                   	<h5 class="animated fadeInUp"><?php echo $subtitulo ?></h5>
                     <h1 class="animated fadeInUp"><?php echo $titulo;?></h1>
@@ -32,9 +37,10 @@ require_once("config/conexion.php");
                   
        </div>
        <?php } ?>
-       <div class="rsContent mobile">
+       <div class="rsContent">
                     
-            			<video id="video-background" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            			<video id="video-background" playsinline="playsinline"
+            			 autoplay="autoplay" muted="muted" loop="loop">
     							<source src="https://couandcou.com.ar/img/video.mp4" type="video/mp4">
   								</video>
 

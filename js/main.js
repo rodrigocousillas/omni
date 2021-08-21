@@ -122,12 +122,12 @@ $(document).ready(function() {
     $('.sliderHero').royalSlider({
        // SLIDER 
        arrowsNav: false,
-        autoScaleSlider: true,
+        autoScaleSlider: false,
 
         fullscreen: {
             // fullscreen options go gere
-            enabled: true,
-            nativeFS: true
+            enabled: false,
+            nativeFS: false
         },
 
         
@@ -167,15 +167,7 @@ $(document).ready(function() {
         arrows: true
     });
 
-    /*$('.sliderHero').slick({
-        slidesToShow: 1,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        speed: 2000,
-        fade: true,
-        infinite: true
-    });*/
+    
 
     $('.carrousel').slick({
         slidesToShow: 3,

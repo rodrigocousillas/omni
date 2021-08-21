@@ -29,6 +29,30 @@
 .desktop { display: none; }    
 .mobile { display: block; }
 
+  .slideDesktop { display: none; }
+  .slideMobile { display: block; }
+
+.royalSlider {
+margin-top: 75px;
+ min-height: calc(1.35*100vw)!important;
+}
+
+
+.hero .texto { position: absolute;
+    z-index: 10;
+    height: 20%;
+    display: block;
+    margin: auto;
+    top: -105px!important; left: 0; right: 0; bottom: none!important; text-align: center; 
+    max-width: none!important; }
+.hero .texto h5 { padding: 0 45px; font-weight: 500; font-size:28px; color: #e30613; letter-spacing: -1px;}
+.hero .texto h1 { font-weight: 900; font-size: 44px; color: #ffffff;letter-spacing: -1px; }
+.hero a:link { border: 2px solid  #e12130; color:  #e12130!important; border-radius: 0;
+ padding: 10px 20px; font-weight: 700; position: relative; z-index: 30; }
+.hero a:visited { border: 2px solid  #e12130; color: #e12130!important; }
+.hero a:hover { border: 2px solid #e12130; color: #e12130!important; background-color: white!important; }
+
+
 .navbar-collapse { background-color:white; 
   font-size: 20px; margin-left: -20px; margin-right: -20px; padding-left:40px; 
   padding-top: 20px; padding-bottom: 20px;}

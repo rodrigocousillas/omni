@@ -1,10 +1,8 @@
 /* v1.0.5 */
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 .royalSlider {
-
-	height: 100vh;
-	min-height: 100vh;
-	direction: ltr;
+	min-height: calc(0.57*100vw);
+	
 }
 
 .royalSlider img { 
