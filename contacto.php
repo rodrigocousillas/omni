@@ -54,6 +54,9 @@
                 <label for="razon">Equipo o Marca</label>
                 <select class="form-control" name="reason" id="reason" required="required" data-error="Nombre es requerido.">
                  <option>Seleccione una opción</option>
+                 <option>Seleccione una opción</option>
+                 <option>Seleccione una opción</option>
+                 <option>Seleccione una opción</option>
                 
                 </select>
               </div> 
